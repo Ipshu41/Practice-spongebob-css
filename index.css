@@ -88,7 +88,7 @@
 	left:130px;
 	border:5px solid #000;
 	border-bottom:5px solid transparent;
-	border-radius:42.5%;
+	border-radius:10%;
 	z-index:10;
 }
 
@@ -100,7 +100,7 @@
 	position:absolute;
 	top:120px;
 	left:50px;
-	border-radius:50%;
+	border-radius:10%;
 	border-bottom:5px solid #000;
 	z-index:10;
 }
@@ -148,19 +148,7 @@
 	overflow:hidden;
 }
 
-.cuello {
-	width:50px;
-	height:30px;
-	position: absolute;
-	background:#fff;
-	top:-25px;
-	border:5px solid #000;
-	-moz-transform: rotate(30deg);
-	-webkit-transform: rotate(30deg);
-	-o-transform: rotate(30deg);
-	-ms-transform: rotate(30deg);
-	transform: rotate(30deg);
-}
+
 
 .collar1 {
 	left:60px;
@@ -242,7 +230,7 @@
 
 /*----- ----- -----Bubbles ----- ----- -----*/
 .bubble {
-	background:#C0A402;
+	background:rgb(173, 202, 4);
 	height:40px;
 	width:40px;
 	position:absolute;
@@ -287,5 +275,9 @@
 }
 
 .copy {
-	text-align:center;
+    text-align:center;
+    color: blue;
+}
+p{
+    color: red;
 }
